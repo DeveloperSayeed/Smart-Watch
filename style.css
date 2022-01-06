@@ -1,0 +1,89 @@
+@font-face {
+    font-family: sayeed;
+    src: url(./font/Open\ 24\ Display\ St.ttf);
+}
+body{
+    font-family: sayeed;
+}
+.child-clock{
+
+    font-size: 80px;
+    color: red;
+    position: relative;
+
+}
+img{
+    max-width: 100%;
+}
+.imgdiv{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    text-align: center;
+}
+.imgdiv img{
+
+}
+.clock{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+.clock img{
+    position: absolute;
+    top: 114px;
+    left: 130px;
+    right: 0;
+    width: 30px;
+}
+.child-clock .hours{
+    position: absolute;
+    top: 105px;
+    right: 235px;
+    font-size: 60px;
+    color: #fff;
+}
+.child-clock .min{
+    position: absolute;
+    top: 105px;
+    right: 170px;
+    font-size: 60px;
+    color: #fff;
+}
+.child-clock .sec{
+    position: absolute;
+    top: 145px;
+    right: 133px;
+    font-size: 30px;
+    font-weight: initial;
+    color: gold;
+}
+.child-clock .apm{
+    position: absolute;
+    top: 106px;
+    right: 125px;
+    font-size: 30px;
+    color: dodgerblue;
+}
+.child-clock .day {
+	position: absolute;
+	top: 214px;
+	font-size: 25px;
+	left: 0;
+	right: 0;
+	background: #eeeeee1c;
+	margin: 0 26px;
+	color: deeppink;
+}
+.child-clock .date{
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 290px;
+    font-size: 30px;
+    color: #fff;
+}
