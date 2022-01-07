@@ -15,6 +15,7 @@ setInterval(function () {
     let h = date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
     let m = date.getMinutes();
     let s = date.getSeconds();
+    let din = date.getDay();
     
     day.innerHTML = week(date.getDay());
    
@@ -23,8 +24,8 @@ setInterval(function () {
     sec.innerHTML = zero(s);
     apm.innerHTML = date.getHours() > 12 ? "pm" : "am";
 
-    tarik.innerHTML = `${zero(date.getDay())}/${zero(date.getMonth() == date.getMonth() ? date.getMonth() + 1 : date.getMonth()) }/${date.getFullYear()}`
+    tarik.innerHTML = `${zero(date.getDate())}/${zero(date.getMonth() == date.getMonth() ? date.getMonth() + 1 : date.getMonth()) }/${date.getFullYear()}`
     //  
 
-
+console.log(din);
 }, 1000)
